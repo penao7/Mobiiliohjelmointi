@@ -135,7 +135,6 @@ const FindAddress = () => {
   const [addresses, setAdresses] = useState([]);
 
   const animateToRegion = ({ coords, street, country, city }) => {
-    console.log('info', coords, street, name, city);
     const newRegion = { latitudeDelta: 0.01, longitudeDelta: 0.01, latitude: coords.latitude, longitude: coords.longitude };
     if (_map.current) {
       _map.current.animateToRegion(newRegion, 1000);
