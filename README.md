@@ -9,3 +9,4 @@ Mobiiliohjelmointi (kevät 2020), harjoitustehtävät
 - Tehtävä 5: [Multipage calculator](/calculator-with-pages/src/components/Calculator.jsx)
 - Tehtävä 6: [Recipe Finder](/recipe-finder/src/components/RecipeFinder.jsx)
 - Tehtävä 7: [Euro Converter](/euro-converter/src/components/EuroConverter.jsx)
+- Tehtävä 8: [Find the address](/find-the-address/src/components/FindAddress.jsx)
