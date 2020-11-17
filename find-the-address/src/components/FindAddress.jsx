@@ -16,6 +16,7 @@ import useField from '../hooks/useField';
 import * as Location from 'expo-location';
 import axios from 'axios';
 import Icon from './Icon';
+import Constants from 'expo-constants';
 
 const { height, width } = Dimensions.get('window');
 
@@ -150,6 +151,8 @@ const FindAddress = () => {
     }
   };
 
+  console.log(Constants);
+
   useEffect(() => {
     whereAmI();
   }, []);
@@ -171,7 +174,7 @@ const FindAddress = () => {
 
   const getAddress = () => {
 
-    axios.get(`http://www.mapquestapi.com/geocoding/v1/address?key=R66qXAbmT3mAaYG9LJ4rY7mTkSxyX6fL&location=${address.value}`)
+    axios.get(`http://www.mapquestapi.com/geocoding/v1/address?key=${Constants.manifest.extra.API_KEY}&location=${address.value}`)
       .then(raw => handleAdresses(raw.data.results[0].locations));
   };
 
