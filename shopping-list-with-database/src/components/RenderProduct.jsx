@@ -8,7 +8,9 @@ const RenderProduct = ({ item, deleteItem }) => {
   const styles = StyleSheet.create({
     container: {
       flex: 1,
+      width: 300,
       flexDirection: 'row',
+      justifyContent: 'space-between',
       padding: 3
     },
     touchableStyle: {
@@ -19,8 +21,8 @@ const RenderProduct = ({ item, deleteItem }) => {
 
   return (
     <View style={styles.container}>
-      <Text>{`${item.product}, `}</Text>
-      <Text>{`${item.amount} `}</Text>
+      <Text>{item.product}</Text>
+      <Text>{item.amount}</Text>
       <TouchableOpacity style={styles.touchableStyle} onPress={() => deleteItem(item.id)}>
         <Fontisto name="shopping-basket-remove" size={29} color="mediumaquamarine" />
       </TouchableOpacity>
