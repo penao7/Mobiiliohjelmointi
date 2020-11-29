@@ -8,7 +8,7 @@ const getContacts = async () => {
     });
 
     return data;
-  };
+  }
 };
 
 export const filterChange = filter => async dispatch => {
@@ -23,5 +23,5 @@ export const getContactList = () => async dispatch => {
   dispatch({
     type: 'GET_CONTACTS',
     data: contacts
-  })
-}
+  });
+};

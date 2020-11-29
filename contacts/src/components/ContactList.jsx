@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, FlatList, TextInput } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
-import { getContactList, filterChange } from '../redux/actioncreators'
+import { getContactList, filterChange } from '../redux/actioncreators';
 import RenderContact from './RenderContact';
 
 const ContactList = () => {
@@ -14,12 +14,12 @@ const ContactList = () => {
       return contacts.filter(contact =>
         contact.name.toLocaleLowerCase().includes(filter.toLocaleLowerCase())
       );
-    };
+    }
   });
 
   useEffect(() => {
     dispatch(getContactList());
-  }, [])
+  }, []);
 
   return (
     <View style={styles.container}>
