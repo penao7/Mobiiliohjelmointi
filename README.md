@@ -11,3 +11,7 @@ Mobiiliohjelmointi (kevät 2020), harjoitustehtävät
 - Tehtävä 7: [Euro Converter](/euro-converter/src/components/EuroConverter.jsx)
 - Tehtävä 8: [Find the address](/find-the-address/src/components/FindAddress.jsx)
 - Tehtävä 9: [Shopping list with SQLite database](/shopping-list-with-database/src/components/ShoppingList.jsx)
+- Tehtävä 10: [Contacts](/contacts/src/components/Contacts.jsx)
+- Tehtävä 11: [Text To Speech](/text-to-speech/src/components/TextToSpeech.jsx)
+- Tehtävä 12: [Shopping list polished](/shopping-list-polished-ui/src/components/ShoppingList.jsx)
+- Tehtävä 13: [My Places](/my-places/App.js)
