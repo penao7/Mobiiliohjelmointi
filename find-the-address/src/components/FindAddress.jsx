@@ -122,6 +122,8 @@ const FindAddress = () => {
   const _map = useRef('');
 
   const [errorMsg, setErrorMsg] = useState('');
+  errorMsg;
+
   const [marker, setMarker] = useState({
     coords: {
       latitude: 0,
@@ -134,6 +136,8 @@ const FindAddress = () => {
   const [userRegion, setUserRegion] = useState('');
   const [isVisible, setVisible] = useState(false);
   const [addresses, setAdresses] = useState([]);
+
+  userRegion;
 
   const animateToRegion = ({ coords, street, country, city }) => {
     const newRegion = { latitudeDelta: 0.01, longitudeDelta: 0.01, latitude: coords.latitude, longitude: coords.longitude };
