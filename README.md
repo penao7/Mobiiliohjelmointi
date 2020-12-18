@@ -50,12 +50,6 @@ Mobiiliohjelmointi (kevät 2020), harjoitustehtävät
   </p>
   
 - Tehtävä 9: [Shopping list with SQLite database](/shopping-list-with-database/src/components/ShoppingList.jsx)
-
-  <p float=left>
-    <img src="/images/shoppinglistpolished.png" height="400">
-    <img src="/images/shoppinglistpolished2" height="400">
-  </p>
-
 - Tehtävä 10: [Contacts](/contacts/src/components/ContactList.jsx)
 
  <p float=left>
@@ -66,6 +60,12 @@ Mobiiliohjelmointi (kevät 2020), harjoitustehtävät
   
 - Tehtävä 11: [Text To Speech](/text-to-speech/src/components/TextToSpeech.jsx)
 - Tehtävä 12: [Shopping list polished](/shopping-list-polished-ui/src/components/ShoppingList.jsx)
+
+  <p float=left>
+    <img src="/images/shoppingpolished.png" height="400">
+    <img src="/images/shoppingpolished2.png" height="400">
+  </p>
+
 - Tehtävä 13: [My Places](/my-places/App.js)
 
   <p float=left>
