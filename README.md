@@ -69,9 +69,9 @@ Mobiiliohjelmointi (kevät 2020), harjoitustehtävät
 - Tehtävä 13: [My Places](/my-places/App.js)
 
   <p float=left>
+    <img src="/images/myplaces2.png" height="400">
     <img src="/images/myplaces.png" height="400">
     <img src="/images/myplaces1.png" height="400">
-    <img src="/images/myplaces2.png" height="400">
     <img src="/images/myplaces3.png" height="400">
   </p>
 
