@@ -32,7 +32,6 @@ export default {
     },
     "extra": {
       "API_KEY": process.env.API_KEY,
-      "testi": "moi"
     }
   }
 }
